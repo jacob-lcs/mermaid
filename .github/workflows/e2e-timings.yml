@@ -1,9 +1,6 @@
 name: E2E - Generate Timings
 
 on:
-  # run this workflow every night at 3am
-  schedule:
-    - cron: '28 3 * * *'
   # or when the user triggers it from GitHub Actions page
   workflow_dispatch:
 
