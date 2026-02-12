@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - develop
-  schedule:
-    - cron: 29 15 * * 0
 permissions: read-all
 jobs:
   analysis:
